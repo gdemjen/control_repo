@@ -1,3 +1,5 @@
 node default {
-  file {''}
+  file {'/root/README'}:
+    ensure => file,
+    
 }
